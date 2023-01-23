@@ -1,0 +1,111 @@
+body {margin: 40px;
+padding: 40px;
+}
+
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+
+ol {max-width: fit-content;}
+
+/* list background color */
+li {font-weight: bold;
+color: white;
+font-size: 20px;}
+ .dedication {background-color: #08f;}
+ .hardwork {background-color: #a04;}
+.patience {background-color: #cb7000;}
+.consistency {background-color: #0a0;}
+.luck {background-color: blue;
+}
+
+h1 {margin-left:20px;}
+
+.pieContainer {
+    height: 250px;
+    margin-left: 100px;
+  }
+  
+  .pieBackground {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+  } 
+  
+  .pie {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    clip: rect(0px, 75px, 150px, 0px);
+  }
+  
+  .hold {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    clip: rect(0px, 150px, 150px, 75px);
+  }
+  
+  #pieSlice1 .pie {
+    background-color: blue;
+    transform:rotate(100deg);
+  }
+
+  #pieSlice2 {
+    transform: rotate(70deg);
+  }
+  
+  #pieSlice2 .pie {
+    background-color: #0a0;
+    transform: rotate(60deg);
+  }
+  
+  #pieSlice3 {
+    transform: rotate(130deg);
+  }
+  
+  #pieSlice3 .pie {
+    background-color: #cb7000;
+    transform: rotate(120deg);
+  }
+  
+  #pieSlice4 {
+    transform: rotate(200deg);
+  }
+  
+  #pieSlice4 .pie {
+    background-color: #08f;
+    transform: rotate(150deg);
+  }
+  
+  #pieSlice5 {
+    transform: rotate(290deg);
+  }
+  
+  #pieSlice5 .pie {
+    background-color: #a04;
+    transform: rotate(120deg);
+  }
+  
+  #pieSlice6 {
+    transform: rotate(0deg);
+  }
+  
+  #pieSlice6 .pie {
+    background-color: #ffd700;
+    transform: rotate(70deg);
+  }
+  
+ 
